@@ -104,8 +104,6 @@ nucl_acid_ext_method_additional: not applicable
 
 ## BACKGROUND
 
-This document describes the required protocol to conduct [insert name of the method/protocol].
-
 ### Summary
 
 This protocol is a modified version of the Qiagen DNeasy 96-sample protocol: Purification of Total DNA from Animal Tissues.
@@ -163,11 +161,9 @@ Sterile technique, pipetting skills.
 
 ## STANDARD OPERATING PROCEDURE
 
-In the following SOP, please use the exact names of equipment as noted in the table above.
+### DNA extraction Protocol
 
-Provide a step-by-step description of the protocol. The identification of difficult steps in the protocol and the provision of recommendations for the execution of those steps are encouraged.
-
-### Preparation
+#### Preparation
 
 **Important points before starting (from the original Qiagen DNeasy 96 Blood and Tissue Kit Protocol)**
 
@@ -187,13 +183,15 @@ Provide a step-by-step description of the protocol. The identification of diffic
 **Pre-procedure**
 
 0.1	Organize a 96-well sample layout spreadsheet to identify which samples are in each well location. Don’t forget to include extraction blanks (EB; x1), PCR blanks (x2), and artificial communities (x1)
+
 0.2	Preheat incubator to 56°C for later use
+
 0.3	Place clean and sterile 3 or 5 mm TissueLyser beads into each of the collection microtubes.
 
 **Note:** Be sure to label your plates along the plate skirt.
 
 
-### Extraction
+#### Extraction
 
 1.  Place eDNA water filters into the collection microtubes. Be sure to have an organization chart to identify location of each sample in the 96-well-plate format.
 
