@@ -9,7 +9,7 @@ broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: oceanic epipelagic zone biome [ENVO:01000033]
 environmental_medium: sea water [ENVO:00002149], filter paper [OBI:0000151]
 target: deoxyribonucleic acid (DNA) [NCIT:C449]
-creator: Jacoby Baker https://orcid.org/0000-0002-0673-7535
+creator: Jacoby Baker
 materials_required: centrifuge [OBI:0400106], incubator [OBI:0000136]
 skills_required: sterile technique, pipetting skills, standard molecular technique
 time_required: 1320
@@ -27,9 +27,9 @@ samp_vol_we_dna_ext: 1000
 samp_vol_we_dna_ext_unit: mL
 nucl_acid_ext_lysis: physical
 nucl_acid_ext_sep: centrifugation
-nucl_acid_ext: # https://files.zymoresearch.com/protocols/_d4302_d4306_d4308_zymobiomics-96_magbead_dna_kit.pdf
+nucl_acid_ext:
 nucl_acid_ext_kit: Qiagen DNeasy 96 Blood & Tissue Kit
-nucl_acid_ext_modify: # Sterivex was lysed with 1000 uL of ZymoBIOMICS Lysis Solution, use of KingFisher Flex Purification System for bead cleanup and final elution
+nucl_acid_ext_modify: 
 dna_cleanup_0_1: # 1.0
 dna_cleanup_method: # ZymoBIOMICS 96 Magbead DNA Kit
 concentration: not applicable
@@ -45,48 +45,48 @@ nucl_acid_ext_method_additional: not applicable
 
 ### Minimum Information about an Omics Protocol (MIOP)
 
-- MIOP terms are listed in the YAML frontmatter of this page.
+>- MIOP terms are listed in the YAML frontmatter of this page.
 - See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
 ### Making eDNA FAIR (FAIRe)
 
-- FAIRe terms are listed in the YAML frontmatter of this page.
+>- FAIRe terms are listed in the YAML frontmatter of this page.
 - See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
 - See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
 ### Authors
 
-- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+>- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
 - Visit https://orcid.org/ to register for an ORCID.
 - Date is the date the author first worked on the protocol.
 
 | PREPARED BY  | AFFILIATION  | ORCID        | DATE       |
 | ------------ | ------------ | ------------ | ---------- |
-| Jacoby Baker | MBARI | 0000-0002-0673-7535 | 2023-11-07 |
-| N. Kobun Truelove | MBARI | 0000-0002-2236-1849 | 2023-11-07 |
-| Kathleen J. Pitz | MBARI | 0000-0002-4931-8592 | 2023-11-07 |
+| Jacoby Baker | MBARI | 0000-0002-0673-7535 | 2024-11-07 |
+| N. Kobun Truelove | MBARI | 0000-0002-2236-1849 | 2024-11-07 |
+| Kathleen J. Pitz | MBARI | 0000-0002-4931-8592 | 2024-11-07 |
 
 ### Related Protocols
 
-- This section contains protocols that should be known to users of this protocol.
+>- This section contains protocols that should be known to users of this protocol.
 - Include the link to each protocol.
 - Include the version number and release date (if available).
 - Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| Qiagen DNeasy 96 Blood and Tissue Kit Protocol  | Content Cell | Content Cell | yyyy-mm-dd   | External      |
-| Environmental DNA (eDNA) extraction using Quagen DNeasy 96 Blood and Tissue Kit V.3 | https://mbari-bog.github.io/MBON-Protocols/eDNA_extraction_V3.html | Content Cell | yyyy-mm-dd   | Internal      |
+| Qiagen DNeasy 96 Blood and Tissue Kit Protocol  | https://www.qiagen.com/jp/resources/download.aspx?id=68f29296-5a9f-40fa-8b3d-1c148d0b3030&lang=en |  |  June 2023  | External      |
+| eDNA sampling using a peristaltic pump with preservation in DNA/RNA Shield solution | https://github.com/MBARI-BOG/MBARI-BOG-CTD-peristalticpump-DNARNAshield-sampling-protocol | 1.0 | 2025-11-25   | Internal      |
 
 ### Protocol Revision Record
 
-- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+>- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
 - Release date is the date when a given protocol version was finalised.
 - Description of revisions includes a brief description of what was changed relative to the previous version.
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | yyyy-mm-dd | Initial release |
+| 1.0.0 | 2026-01-08 | Initial release |
 
 ### Acronyms and Abbreviations
 
@@ -121,13 +121,13 @@ This protocol has been used to extract DNA from filtered sea water samples taken
 sea water [ENVO:00002149]
 http://purl.obolibrary.org/obo/ENVO_00002149
 
-## PERSONNEL REQUIRED
+### PERSONNEL REQUIRED
 
 1 Technician
 
 ### Safety
 
-Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
+>Identify hazards associated with the procedure and specify protective equipment and safety training required to safely execute the procedure
 
 ### Training Requirements
 
@@ -139,7 +139,7 @@ Sterile technique, pipetting skills.
 
 ## EQUIPMENT
 
-- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
+>- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
@@ -290,7 +290,7 @@ Total DNA is quantified using a Quant-iT kit on a plate reader.
 
 ### Basic Troubleshooting Guide
 
-- Identify known issues associated with the procedure, if any.
+>- Identify known issues associated with the procedure, if any.
 - Provide troubleshooting guidelines when available.
 
 ## REFERENCES
@@ -300,4 +300,4 @@ Total DNA is quantified using a Quant-iT kit on a plate reader.
 
 ## APPENDIX A: DATASHEETS
 
-Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
+>Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
